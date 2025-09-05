@@ -4,7 +4,8 @@ Then download your project from your CAT tool as TMX or XLIFF and run the script
 
 I suggest starting with a small sample of your translation project to refine your system prompt and, once you're satisfied with the sample results, translating the whole text.
 
-Note that you need an API key for OpenAI (comes with paid subscription) and Python (e.g. via www.anaconda.org).
+**Note that you need an API key for OpenAI (comes with paid subscription) and Python (e.g. via www.anaconda.org).**
+
 Usage: 
 1. After installing Anaconda, in your Anaconda prompt type "pip install openai" to enable your OpenAI API in Python.
 2. Get your OpenAI API key from https://platform.openai.com/api-keys
