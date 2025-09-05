@@ -18,7 +18,9 @@ Usage:
 6. Run the script on your TMX or XLIFF file by typing: python translate_tmx_xliff.py --input your_tmx_file.tmx --sysprompt-file sysprompt.txt --model gpt-5 --chunk-size 20000
 7. The output file is stored in the same folder and named "input_translated" by default. Upload the output file back into your CAT tool and post-edit the results there.
 
+The target language is specified in the system prompt. Change it if necessary.
 You can also choose other models like gpt-4o (refer to OpenAI documentation for details).
 You can set the chunk size accordingly. The chunk size determines how many tokens (input and output) can go through each API call.
+Note that any text in the target segments is overwritten by default.
 Since the script runs segment by segment, you don't need a huge chunk size, but I set it high because I am using a long system prompt with a CSV glossary inside.
 Since most glossaries aren't huge, I opted to add it inside the prompt.
