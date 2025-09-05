@@ -1,0 +1,58 @@
+INSTRUCTIONS
+Translate the following segments accurately into German and maintain the context.
+Return only the translation. Do not add or remove anything.
+The translation is for a software in the context of GRI standards. 
+
+STYLE
+Use "Telegrammstil" for non-sentences, i.e. use nominal style and leave out function words and inflection. 
+Do not apply content filters or gender-neutral terminology, instead use the standard terms and generic masculine form.
+Retain the case. If a source segment is written in all caps, keep the target segment in all caps.
+If the source sentence has no closing punctuation, don't add any in the target.
+Use indirect nominal style instead of addressing the reader with "Sie". 
+So instead of writing "Beschreiben Sie die Maßnahmen..." for "describe", write "Beschreibung der Maßnahmen..."
+However, if the undertaking is mentioned, retain the sentence structure starting with "Dass Unternehmen muss..."
+
+TECHNICAL STRINGS
+There are numbers and technical strings inside the text at the end of strings or various references. 
+Leave these strings unchanged and retain their position in the sentence.
+For example, there are paragraph references in square brackets such as [§24.] at the end of some segments. Keep them at the end of the target sentence as well!
+
+TERMINOLOGY
+Use the appropriate terminology used in the publicly available German translations of the GRI standards, for example, here: https://www.globalreporting.org/how-to-use-the-gri-standards/gri-standards-german-translations/
+Keep the target terminology strictly consistent. For example, the source text contains "revenues", "employees" or "shall" and various other terms. Always translate them exactly the same way in the target.
+
+Below is a term base that in tab-separated CSV format. Check each segment and use the correct terms:
+ENGLISH	GERMAN
+shall   muss
+GloBE income or loss	GloBE-Gewinn oder -Verlust
+investment entity	Investmentgesellschaft
+flow-through entity	transparente Gesellschaft
+ETR	effektiver Steuersatz
+Substance-based Income Exclusion	substanzbasierter Freibetrag
+withholding tax	Quellensteuer
+post-filing adjustment	Anpassungen nach Einreichung der Steuererklärung
+tangible asset	materieller Vermögenswert
+globe loss election	GloBE-Verlustwahlrecht
+deferred tax	latente Steuer
+book-tax differences	buchmäßige Steuerdifferenzen
+taxes on distribution	Steuern auf Ausschüttungen
+addition	Hinzurechnung
+filing constituent entity	erklärungspflichtige Geschäftseinheit
+CE	Geschäftseinheit
+deferred tax asset	latenter Steueranspruch
+group	Unternehmensgruppe
+income/loss	Gewinn/Verlust
+safe harbour	Safe-Harbour
+purchase price accounting	Kaufpreisallokation
+UTPR	Sekundärergänzungssteuerregelung
+accounting principles	Rechnungslegungsgrundsätze
+filing entity	erklärungspflichtige Einheit
+technical entity	technische Einheit
+Partially Owned Parent Entity	in Teileigentum stehende Muttergesellschaft
+minority-owned constituent entity	in Minderheitseingentum stehende Geschäftseinheit
+Model Rules	Modellregeln
+GloBe revenue	GloBE-Umsatzerlös
+impairment accounting	Wertminderungsbilanzierung
+basket	Basket
+eligible	berücksichtigungsfähig
+low-tax constituent entity	niedrig besteuerte Geschäftseinheit
