@@ -14,8 +14,9 @@ Usage:
 2. Get your OpenAI API key from https://platform.openai.com/api-keys
 3. To make your key available in your script, set it as global variable by typing: setx OPENAI_API_KEY "your_api_key_here"
 4. Put all files in the same folder on your computer.
-5. Run the script on your TMX or XLIFF file by typing: python translate_tmx_xliff.py --input your_tmx_file.tmx --sysprompt-file sysprompt.txt --model gpt-5 --chunk-size 20000
-6. The output file is stored in the same folder and named "input_translated" by default. Upload the output file back into your CAT tool and post-edit the results there.
+5. Customize the sysprompt.txt to your needs. I've added some rules as an example.
+6. Run the script on your TMX or XLIFF file by typing: python translate_tmx_xliff.py --input your_tmx_file.tmx --sysprompt-file sysprompt.txt --model gpt-5 --chunk-size 20000
+7. The output file is stored in the same folder and named "input_translated" by default. Upload the output file back into your CAT tool and post-edit the results there.
 
 You can also choose other models like gpt-4o (refer to OpenAI documentation for details).
 You can set the chunk size accordingly. The chunk size determines how many tokens (input and output) can go through each API call.
